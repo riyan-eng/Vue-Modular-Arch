@@ -1,6 +1,6 @@
 const moduleRoute = {
     path: "/products",
-    component: '',
+    component: ()=> import('./Module.vue'),
     children: [
         {
             path: '/',
